@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main_beg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mdallrabbi.parentalcarebracathon.MainBegActivity"
+    tools:showIn="@layout/app_bar_main_beg">
+
+    <Button
+        android:text="Child Womb Activity"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button6" />
+
+    <Button
+        android:text="Inner behaviour analysis"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:text="Mother Work outline"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button7"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:text="Body Growth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Psychological growth"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/button8"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:text="Habitual Brain Storming Game"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+    <Button
+        android:text="Get Experienced"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button16"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/button15"
+        android:layout_alignStart="@+id/button15" />
+
+</RelativeLayout>
